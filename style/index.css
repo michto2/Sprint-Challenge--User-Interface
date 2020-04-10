@@ -80,6 +80,10 @@ header nav {
     justify-content: space-between;
 }
 
+nav a:hover {
+    color: grey;
+}
+
 header .links {
     width: 80%;
     display: flex;
