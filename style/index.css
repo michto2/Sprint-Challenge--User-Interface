@@ -282,18 +282,28 @@ footer nav a {
         width: 100%;
         margin: 0 auto;
     }
+
+    .top-content {
+        width: 100%;
+    }
+
     .top-content .topImg {
         width: 10%;
+        
     }
 
     .topImg img {
-        max-width: 500px;
+       /* max-width: 500px;*/
+       width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .topImg {
-       
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .middle-content .boxes #box {
@@ -317,10 +327,6 @@ footer nav a {
         font-weight: bolder;
         padding-top: 5%;
     }
-
-   /* .bottom-content .text-container {
-        text-align: center;
-    }*/
 
     footer nav {
         justify-content: space-between;
